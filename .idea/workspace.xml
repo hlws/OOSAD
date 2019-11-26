@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.47280595" />
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/game00/Game.java" line="40" />
     <bookmark url="file://$PROJECT_DIR$/src/TestFile/TestFile04.java" line="8" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4611dd-032c-4ded-a004-a794338755a1" name="Default Changelist" comment="" />
+    <list default="true" id="6f4611dd-032c-4ded-a004-a794338755a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/stream/TestFileOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,25 +25,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stream/TestFileInputStream.java">
+        <entry file="file://$PROJECT_DIR$/src/stream/TestFileOutputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestFile/TestFile02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="684">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -52,7 +43,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lishaoteng" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/TestFile/TestFile03.java" />
         <option value="$PROJECT_DIR$/src/TestFile/TestFile04.java" />
         <option value="$PROJECT_DIR$/src/stream/TestFileInputStream.java" />
+        <option value="$PROJECT_DIR$/src/stream/TestFileOutputStream.java" />
       </list>
     </option>
   </component>
@@ -128,6 +126,9 @@
     <option name="y" value="42" />
     <option name="width" value="1734" />
     <option name="height" value="1008" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -205,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestFileInputStream">
+  <component name="RunManager" selected="Application.TestFileOutputStream">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zttc.itat.feet3.Test" />
       <module name="foton" />
@@ -258,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oosad.TestUser" />
+    <configuration name="TestFileOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.TestFileOutputStream" />
       <module name="foton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oosad.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFileOutputStream" />
         <item itemvalue="Application.TestFileInputStream" />
         <item itemvalue="Application.TestFile04" />
         <item itemvalue="Application.TestFile02" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestUser" />
       </list>
     </recent_temporary>
   </component>
@@ -325,12 +326,12 @@
       <workItem from="1574212316872" duration="558000" />
       <workItem from="1574302787817" duration="824000" />
       <workItem from="1574330530364" duration="1105000" />
-      <workItem from="1574738481366" duration="10935000" />
+      <workItem from="1574738481366" duration="13214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140781000" />
+    <option name="totallyTimeSpent" value="143060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,16 +346,17 @@
     <frame x="189" y="42" width="1734" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22879331" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22879331" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.32951945" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4102857" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41075516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -379,18 +381,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="java学习" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestStaticInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="e#74#75#0" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestStatic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -756,11 +751,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stream/TestFileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="323">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stream/TestFileOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="40" />
         </state>
       </provider>
     </entry>
