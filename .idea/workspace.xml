@@ -9,7 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f4611dd-032c-4ded-a004-a794338755a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stream/TestWriteNumber01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/TestWriteNumber02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,35 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stream/TestFileOutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stream/TestBufferedStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/stream/TestWriteNumber01.java">
+        <entry file="file://$PROJECT_DIR$/src/stream/TestWriteNumber02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="306">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -78,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TestGame.java" />
         <option value="$PROJECT_DIR$/src/TestNoddle.java" />
         <option value="$PROJECT_DIR$/src/TestReference.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
@@ -129,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/stream/TestFileOutputStream.java" />
         <option value="$PROJECT_DIR$/src/stream/TestBufferedStream.java" />
         <option value="$PROJECT_DIR$/src/stream/TestWriteNumber01.java" />
+        <option value="$PROJECT_DIR$/src/stream/TestWriteNumber02.java" />
       </list>
     </option>
   </component>
@@ -148,8 +124,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="182" />
-    <option name="y" value="328" />
+    <option name="x" value="108" />
+    <option name="y" value="302" />
     <option name="width" value="1336" />
     <option name="height" value="1008" />
   </component>
@@ -161,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -191,6 +166,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,20 +180,21 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lishaoteng\IdeaProjects\foton" />
-      <recent name="C:\Users\lishaoteng\IdeaProjects\foton\src\liu" />
-      <recent name="C:\Users\lishaoteng\IdeaProjects\foton\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="TestFile" />
-      <recent name="game01" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lishaoteng\IdeaProjects\foton\src\game03" />
       <recent name="C:\Users\lishaoteng\IdeaProjects\foton\src\game02" />
       <recent name="C:\Users\lishaoteng\IdeaProjects\foton\src\game01" />
       <recent name="C:\Users\lishaoteng\IdeaProjects\foton\src\game00" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stream" />
+      <recent name="TestFile" />
+      <recent name="game01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lishaoteng\IdeaProjects\foton" />
+      <recent name="C:\Users\lishaoteng\IdeaProjects\foton\src\liu" />
+      <recent name="C:\Users\lishaoteng\IdeaProjects\foton\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,39 +209,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBufferedStream">
+  <component name="RunManager" selected="Application.TestWriteNumber02">
     <configuration name="TestBufferedStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.TestBufferedStream" />
       <module name="foton" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFile02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestFile.TestFile02" />
-      <module name="foton" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestFile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFile04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestFile.TestFile04" />
-      <module name="foton" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestFile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,13 +249,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestWriteNumber01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.TestWriteNumber01" />
+      <module name="foton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWriteNumber02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.TestWriteNumber02" />
+      <module name="foton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestWriteNumber02" />
+        <item itemvalue="Application.TestWriteNumber01" />
         <item itemvalue="Application.TestBufferedStream" />
         <item itemvalue="Application.TestFileOutputStream" />
         <item itemvalue="Application.TestFileInputStream" />
-        <item itemvalue="Application.TestFile04" />
-        <item itemvalue="Application.TestFile02" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +330,8 @@
       <workItem from="1574302787817" duration="824000" />
       <workItem from="1574330530364" duration="1105000" />
       <workItem from="1574738481366" duration="13535000" />
-      <workItem from="1574814531242" duration="4105000" />
+      <workItem from="1574814531242" duration="4765000" />
+      <workItem from="1574902187322" duration="2519000" />
     </task>
     <task id="LOCAL-00001" summary="java学习">
       <created>1574774176946</created>
@@ -369,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574820366824</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="java学习">
+      <created>1574824949714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574824949714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147486000" />
+    <option name="totallyTimeSpent" value="150665000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,10 +370,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="328" width="1336" height="1008" extended-state="0" />
+    <frame x="108" y="302" width="1336" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20532915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20846395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -428,13 +413,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="java学习" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/game/TestGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/game00/Monster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -752,9 +730,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/stream/TestFileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestFile/TestFile02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="54">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -762,10 +750,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stream/TestFileInputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/stream/TestWriteNumber01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="414">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stream/TestBufferedStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -779,23 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stream/TestBufferedStream.java">
+    <entry file="file://$PROJECT_DIR$/src/stream/TestWriteNumber02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stream/TestWriteNumber01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
