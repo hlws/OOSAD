@@ -1,0 +1,5 @@
+<configuration>
+<property>    
+<name>hadoop.tmp.dir</name>    
+<value>/opt/modules/hadoopha/hadoop-2.5.0/data/tmp</value>
+</property></configuration>

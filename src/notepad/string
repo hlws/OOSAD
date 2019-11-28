@@ -1,0 +1,17 @@
+stringbuilder
+.charAt//根据位置来得到一个字符
+.toLowerCase大写转小写
+.toUpperCase小写转大写
+.replace（old,new）替换字符串//生成新的，原来的不会变
+.startsWith//判断是否是某个字符串开头的，返回一个Boolean类型的值，区分大小写
+.endsWith
+indexOf(".")查找.在字符串中的位置
+lastindexOf(".")从最后开始找点
+.substring(k);从k位置截取子串
+.substring(a,b)从a开始，到b-1结束
+trim去除字符串前面和后面的空格
+int r=Integer.parseInt(args[0])+Integer.parseInt(args[1])字符串转化为int
+Arrays.aslist
+SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:MM:ss");
+		Date d=new Date();
+		System.out.println(sdf.format(d));

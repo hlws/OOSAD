@@ -1,0 +1,12 @@
+对象初始化顺序：
+1初始化属性
+2 调用构造方法
+
+class Bag{
+  1  Book b1=new Book(1);//属性
+  3 public Bag (){//构造方法
+        System.out.println("bag");
+    }
+  2  Book b2=new Book(2);//属性
+
+}

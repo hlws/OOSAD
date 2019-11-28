@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>  
+<property>   
+ <!--  hdfs 地址，ha中是连接到nameservice -->    
+ <name>fs.defaultFS</name>    
+ <value>hdfs://ns1</value>  
+ </property> 
+ <property>    <!--  -->    <name>hadoop.tmp.dir</name>    <value>/opt/modules/hadoopha/hadoop-2.5.0/data/tmp</value>  </property></configuration>
+ /opt/module/hadoopHA/hadoop-2.9.2/etc/hadoop
+ ./hadoop-daemon.sh start journalnode
+/opt/module/hadoopHA/hadoop-2.9.2/sbin

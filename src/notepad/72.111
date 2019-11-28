@@ -1,0 +1,10 @@
+/opt/modules/jdk1.8.0_231
+export JAVA_HOME="/opt/modules/jdk1.8.0_231"
+/opt/modules/hadoop-2.9.2
+export HADOOP_HOME="/opt/modules/hadoop-2.9.2"
+export PATH=$HADOOP_HOME/:bin$HADOOP_HOME/:sbin:$PATH
+关闭防火墙systemctl stop firewalld.service
+/opt/modules/hadoopha/hadoop-2.9.2/etc/hadoop
+/opt/modules/hadoop-2.9.2/etc/hadoop/
+ ps aux
+ http://two:8088/cluster

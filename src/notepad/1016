@@ -1,0 +1,34 @@
+类的访问控制
+四种访问控制方式
+private
+default
+protected
+public
+private修饰的变量和方法只能在同一个类中访问（同一类）
+default就是什么都不写，同一包同一类和不同类都能访问，不同包不能访问（同一包）
+protected 不同包不能访问就，同一包可以访问，但是不同包子类可以访问（不同包的子类）
+public 所有都可以访问（所有都可以）
+权限
+public>protected>default>private
+最佳实践
+所有类中的属性都是private的，为每一个属性增加两个方法getter和setter，
+所有的getter和setter方法都是public的，这就是java bean的写法
+
+eclipse
+workspace
+import——>General->Exiting Projects into Workspaces->next->选择项目所在文件夹
+创建和运行文件
+所有的java文件都要在src目录中创建
+恢复工作空间布局 Windows->reset perspective
+右键source->generate getters and setters来自动生成方法
+右键source->constructor 
+多行注释
+ctrl+shift+/ 快速注释
+ctrl+shift+\取消注释
+单行注释（可同时选中多行）
+Ctrl+/
+删除一行
+Ctrl+d
+自动代码提示alt+/
+改快捷键首选项里面 general key可以搜索对应快捷键bind里面可改
+常用模板main sysout

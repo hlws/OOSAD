@@ -1,0 +1,12 @@
+多态
+多态实现的三个条件
+1、有继承，没有继承就没有多态
+2、有方法的覆盖
+3、有父类引用指向子类的对象
+public class Dog extends Pet {
+	public Dog(String name) {//构造方法 public +类名
+		super();
+		setName(name);
+	}
+
+}

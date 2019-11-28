@@ -1,0 +1,22 @@
+集合类
+五个类五个接口
+接口
+conection
+list
+set
+interator
+map
+类
+Arraylist
+Vector
+HashSet
+HashMap
+Collections
+
+String str=(String)list.get(i);//get返回object类型，所以需要强制类型转换，但有可能无法强制转换，抛出异常
+使用泛型可以有效的解决基于object添加的问题，泛型是在jdk1.5之后才出现的
+封装类
+对于8种基本数据类型，都提供了相应的封装类来将这些对于8种基本数据类型，都提供了相应的封装类来将这些基本数据类型封装为对象，在jdk1.5之后提供自动的封装和解封装，在1.4之前均需手动解封装
+对于封装类均有parsexxx方法来将字符串装换为相应类型的值
+set是无序的无法使用get方法遍历，对于所有的集合类，都提供了一种基于Iterator迭代器的遍历方式
+1.5之后增加了一种增强for循环来遍历数组

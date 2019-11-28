@@ -1,0 +1,34 @@
+hadoop
+配置IP地址
+改hostname
+https://blog.csdn.net/jimuka_liu/article/details/82784313
+https://blog.csdn.net/baidu_28997655/article/details/81586418
+https://www.cnblogs.com/Zerozzx/p/7466179.html
+http://how2j.cn/
+https://blog.csdn.net/CGYDAWN/article/details/812918
+#set java environment
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-1.el7_7.x86_64/jre
+JRE_HOME=$JAVA_HOME/jre
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+export JAVA_HOME JRE_HOME CLASS_PATH PATH
+#HADOOP_HOME
+export HADOOP_HOME=/opt/module/hadoop-2.9.2
+export PATH=${PATH}:${HADOOP_HOME}/bin
+192.168.72.11 hadoop001
+192.168.72.13 hadoop002
+192.168.72.12 hadoop003
+<property>
+                  <name>dfs.namenode.secondary.http-address</name>
+                 <value>hadoop003:50090</value>
+        </property>
+原文链接：https://blog.csdn.net/baidu_28997655/article/details/81586418
+https://www.cnblogs.com/shizhijie/p/9878078.html
+https://blog.csdn.net/qq_41851454/article/details/79666066
+namenode 	 	 
+datanode
+resourcemanager	
+nodemanager	
+zookeeper	
+journalnode
+https://www.jianshu.com/p/0d4a365ef350

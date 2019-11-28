@@ -1,0 +1,7 @@
+异常捕获
+两个重要方法
+e.printStackTrace();//打印异常发生的轨迹
+e.getMessage();//打印错误消息
+异常全部都是类 ，它是通过代码中使用throw抛出的 
+finally中的代码不管怎样都会被执行，所以finally中的代码一般用来释放资源
+有try才能有finally不能直接finally

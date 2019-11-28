@@ -1,0 +1,8 @@
+package用来解决类名的冲突问题
+在有效代码的第一行使用package关键字进行创建
+//package test 当定义了一个包名后，表示这个类必须放到test文件夹中
+在执行程序时，仅仅会默认在当前目录中找当前包中的类，如果希望找到其他包中的类需要使用import导入
+在class之前使用import命令来导入 import   test.MyUtil导入test.myutil中的类static属性可以通过类名加点来访问，非static不行
+包名 小写
+class path的设置，因为import导入包时，只能从当前目录找，设置class path的路径，把包所在文件夹设置成class path
+如果使用 import zttc.itat.*则只会导入itat下的所有包，子文件下的不不会导入

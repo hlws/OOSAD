@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>  
+<property>    
+<name>yarn.nodemanager.aux-services</name>    
+<value>mapreduce_shuffle</value>  
+</property>  
+
+<property>    
+<name>yarn.log-aggregation-enable</name>    
+<value>true</value>  
+</property>  
+
+<property>    
+<name>yarn.log-aggregation.retain-seconds</name>    
+<value>106800</value> 
+ </property>  
+ 
+ <property>    
+ <!--  启用resourcemanager的ha功能 -->    
+ <name>yarn.resourcemanager.ha.enabled</name>    
+ <value>true</value>  
+ </property>  <
+ 
+ property>    
+ <!--  为resourcemanage ha 集群起个id -->    
+ <name>yarn.resourcemanager.cluster-id</name>    
+ <value>yarn-cluster</value>  
+ </property>  
+ 
+ <property>    
+ <!--  指定resourcemanger ha 有哪些节点名 -->    
+ <name>yarn.resourcemanager.ha.rm-ids</name>    
+ <value>rm12,rm13</value>  
+ </property>  
+ 
+ <property>    
+ <!--  指定第一个节点的所在机器 -->    
+ <name>yarn.resourcemanager.hostname.rm12</name>    
+ <value>bigdata-senior02.chybinmy.com</value>  
+ </property>  
+ 
+ <property>    
+ <!--  指定第二个节点所在机器 -->    
+ <name>yarn.resourcemanager.hostname.rm13</name>    
+ <value>bigdata-senior03.chybinmy.com</value>  
+ </property>  
+ 
+ <property>    
+ <!--  指定resourcemanger ha 所用的zookeeper 节点 -->    
+ <name>yarn.resourcemanager.zk-address</name>    <value>bigdata-senior01.chybinmy.com:2181,bigdata-senior02.chybinmy.com:2181,bigdata-senior03.chybinmy.com:2181</value>  
+ </property>  
+ 
+ <property>    
+ <!--  -->    
+ <name>yarn.resourcemanager.recovery.enabled</name>    
+ <value>true</value>  
+ </property>  
+ 
+ <property>    
+ <!--  -->    
+ <name>yarn.resourcemanager.store.class</name>    <value>org.apache.hadoop.yarn.server.resourcemanager.recovery.ZKRMStateStore</value>  
+ </property>
+ 
+ </configuration>
